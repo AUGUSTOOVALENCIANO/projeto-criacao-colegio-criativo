@@ -1,0 +1,72 @@
+body{ /*Definindo a imagen de fundo aqui */
+    background: url("/projeto/css/imagens/textura_fundo.jpg ");
+    background-size: 100% 100%;
+    /*background-repeat: no-repeat; para nao repitir foto*/
+}
+
+.login{ /* estilizando o login */
+    width: 360px; /* definindo altura */
+    margin: auto; /* definir onde vai fica no caso aqui fica no meio */
+    padding: 8% 0 0; /* espaçamento interno responsivo */
+
+}
+
+.rodape{
+    color: #cccccc;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.titulologin{/* estilizando o login texto */
+    color: #cccccc;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif; 
+}
+
+.form{ /* estilizando o formulario */
+    position: relative; /*sempre vai fica na posição nunca vai sair idependente de qualquer resolução*/
+    z-index: 1; /*define a profundidade se tiver foto ela vai fica acima da foto de fundo por exemplo*/
+    background: #FFFF; /*define a cor do contener*/
+    max-width: 360px;
+    margin:0 auto 100px; /*para centralizar ele*/
+    padding: 45px;
+    text-align: center;/*todo texto que entra vai fica no centro*/
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input { /* estilizando os inputs de login */
+    font-family: "Roboto", sans-serif; /* estilizando a fonte */
+    outline: 2; /* estilizando a linha da caixa*/
+    background: #f2f2f2; /* cor da caixa */
+    width: 100%; /* ocupa 100 da caixa */
+    border: 0;
+    margin: 0 0 15px; /* afastamento entre os inputs */
+    padding: 15px;
+    box-sizing: border-box; /* criando a caixa de login  */
+    font-size: 14px;
+  }
+
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase; /* deixar maisculo  */
+    outline: 0;
+    background: #4646EA; /* cor de fundo do botao */
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF; /* cor da letra  */
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  
+  
+  .form button:hover,.form button:active,.form button:focus {
+    background: #46EA92; /* quando passa o mousse em cima  */
+  }
+
+  .imagem_login{ /* inicializar o estilo imagem login */
+    margin-bottom: 45px; /* espaçamento entre a logo e os labels */
+  }
